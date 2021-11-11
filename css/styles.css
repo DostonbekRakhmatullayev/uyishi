@@ -1,0 +1,130 @@
+body{
+ margin: 0;
+padding: 0;
+    background-color: rgb(80, 78, 78);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+width: 900px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border-radius: 8px;
+background-color: rgb(251, 255, 255);
+}
+.images{
+    width: 330px;
+    height: 500px;
+    transform:  opacity 7s ease ;
+    border-radius:  0 8px 8px 0;
+}
+.images:hover{
+    opacity: 0.9;
+}
+.navbar{
+
+margin-top: 45px;
+margin-left: 35px;
+}
+.img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    transition: all 0.8s ease
+}
+.img:hover{
+    transform: rotate(720deg);
+}
+.navbar__text{
+    margin-left: 35px;
+}
+
+.navbar__text{
+    margin-bottom: 30px;
+color: dimgray;
+}
+.small{
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.main__link{
+    width: 470px;
+    height: 40px;
+    background-color: rgb(234, 234, 241);
+    margin-top: 30px;
+    border-radius: 8px;
+    align-items: center;
+    /* opacity: 0.7; */
+}
+.main__link:hover{
+    box-shadow: 0 0 5px 3px rgb(70, 69, 69);
+ /* opacity: 1; */
+ border: black;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+hr{
+      padding-bottom: 10px;
+}  
+.main__box{
+    margin-bottom: 60px;
+}
+.main__email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__with{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(56, 56, 56, 0.39);
+}
+.main__with:hover{
+ color: black;
+}
+.main__sign{
+    color: rgb(71, 70, 70);
+}
+.main__sign:hover{
+    color: black;
+}
+.drop_down{
+    border-radius: 10px;
+    display: none;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 217, 235);
+    list-style-type: none;
+}
+.drop_down_link{
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.drop_down_link:hover{
+    box-shadow: 0 0 5px 3px #000;
+}
+.opin_drop_dowm:hover .drop_down{
+    display: block;
+}
+.opin_drop_box{
+    display: block;
+}
+
+.main__still{
+    margin-left: 30px;
+}
+
+
+
